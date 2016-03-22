@@ -1,0 +1,13 @@
+default:
+    context:
+        parameters:
+            size: maximized
+            screenshots:
+              onfail: false
+    extensions:
+        Behat\MinkExtension\Extension:
+            base_url: http://minut-35411.herokuapp.com/
+            goutte: ~
+            selenium2:
+               wd_host: 127.0.0.1:4444/wd/hub
+               browser: chrome

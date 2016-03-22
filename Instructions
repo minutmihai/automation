@@ -1,0 +1,5 @@
+1. Composer install
+2. Add Behat in env PATH: .../vendor/behat/behat/bin
+3. Add Selenium in env PATH
+4. Start Selenium Server in cmd (from Selenium directory): java -jar selenium-server-standalone-2.53.0.jar
+5. Run Behat tests (from HQ_automation directory, same place as YML config file): behat --no-paths
